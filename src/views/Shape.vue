@@ -1,15 +1,15 @@
 <template>
     <YuniContent pNum='20'>
-        <div class='page-title'>输入框组件</div>
+        <div class='page-title'>形状</div>
         <div class='page-content'>
-            <YuniCard title='输入框'>
-               <YuniInput type='text'></YuniInput>
-               <YuniInput type='text' width='200'></YuniInput>
-               <YuniInput type='text' width='200' radius='8'></YuniInput>
-               <YuniInput type='text' width='200' radius='8' color='#666'></YuniInput>
-               <YuniInput type='text' width='200' radius='8' borderColor='#ccc' placeholder="请输入"></YuniInput>
-               <YuniInput type='number' width='200' radius='8' borderColor='#efefef' placeholder="请输入数字"></YuniInput>
+            <YuniCard title='形状'>
+              <YuniShape>矩形</YuniShape>
+              <br>
+              <YuniShape width='200'>矩形</YuniShape>
+              <br>
+              <YuniShape  radius='50'>圆</YuniShape>
             </YuniCard>
+            
             <code class='yuni-code' v-highlight>
                 <pre class='yuni-pre'>
 <code>
@@ -79,14 +79,10 @@
     </YuniContent>
 </template>
 <script>
-// import YuniContent from "@/components/YuniContent";
-// import YuniCard from '@/components/YuniCard'
-import YuniInput from '@/components/YuniInput'
+import YuniShape from '@/components/YuniShape'
 export default {
     components:{
-        // YuniContent,
-        // YuniCard,
-        YuniInput
+        YuniShape
     }
 }
 </script>

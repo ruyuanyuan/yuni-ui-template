@@ -7,6 +7,14 @@
                 :placeholder="placeholder"
                 :style='`width:${width}px;height:${height}px;border-radius:${radius}px;border:1px solid ${borderColor};color:${color}`'>
         </template>
+        <template v-if='type=="number"' >
+            <input 
+                class='yuni-input yuni-input-number' 
+                type="text"
+                :placeholder="placeholder"
+                oninput="this.value=this.value.replace(/[^\d.]/g,'')"
+                :style='`width:${width}px;height:${height}px;border-radius:${radius}px;border:1px solid ${borderColor};color:${color}`'>
+        </template>
     </div>
 </template>
 <script>

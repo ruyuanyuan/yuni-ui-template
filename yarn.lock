@@ -4526,6 +4526,11 @@ highlight.js@^10.0.0:
   resolved "https://registry.npm.taobao.org/highlight.js/download/highlight.js-10.4.1.tgz#d48fbcf4a9971c4361b3f95f302747afe19dbad0"
   integrity sha1-1I+89KmXHENhs/lfMCdHr+GdutA=
 
+highlight.js@^10.7.2:
+  version "10.7.2"
+  resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-10.7.2.tgz#89319b861edc66c48854ed1e6da21ea89f847360"
+  integrity sha512-oFLl873u4usRM9K63j4ME9u3etNF0PLiJhSQ8rdfuL51Wn3zkD6drf9ZW0dOzjnZI22YYG24z30JcmfCZjMgYg==
+
 hmac-drbg@^1.0.0:
   version "1.0.1"
   resolved "https://registry.npm.taobao.org/hmac-drbg/download/hmac-drbg-1.0.1.tgz#d2745701025a6c775a6c545793ed502fc0c649a1"
@@ -8654,10 +8659,10 @@ urix@^0.1.0:
   resolved "https://registry.npm.taobao.org/urix/download/urix-0.1.0.tgz#da937f7a62e21fec1fd18d49b35c2935067a6c72"
   integrity sha1-2pN/emLiH+wf0Y1Js1wpNQZ6bHI=
 
-url-loader@^2.2.0:
+url-loader@^2.1.0, url-loader@^2.2.0:
   version "2.3.0"
-  resolved "https://registry.npm.taobao.org/url-loader/download/url-loader-2.3.0.tgz#e0e2ef658f003efb8ca41b0f3ffbf76bab88658b"
-  integrity sha1-4OLvZY8APvuMpBsPP/v3a6uIZYs=
+  resolved "https://registry.yarnpkg.com/url-loader/-/url-loader-2.3.0.tgz#e0e2ef658f003efb8ca41b0f3ffbf76bab88658b"
+  integrity sha512-goSdg8VY+7nPZKUEChZSEtW5gjbS66USIGCeSJ1OVOJ7Yfuh/36YxCwMi5HVEJh6mqUYOoy3NJ0vlOMrWsSHog==
   dependencies:
     loader-utils "^1.2.3"
     mime "^2.4.4"
@@ -8836,7 +8841,7 @@ vue-template-es2015-compiler@^1.9.0:
   resolved "https://registry.npm.taobao.org/vue-template-es2015-compiler/download/vue-template-es2015-compiler-1.9.1.tgz#1ee3bc9a16ecbf5118be334bb15f9c46f82f5825"
   integrity sha1-HuO8mhbsv1EYvjNLsV+cRvgvWCU=
 
-vue@^2.6.11:
+vue@^2.5.11, vue@^2.6.11:
   version "2.6.12"
   resolved "https://registry.npm.taobao.org/vue/download/vue-2.6.12.tgz?cache=0&sync_timestamp=1606946160685&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fvue%2Fdownload%2Fvue-2.6.12.tgz#f5ebd4fa6bd2869403e29a896aed4904456c9123"
   integrity sha1-9evU+mvShpQD4pqJau1JBEVskSM=
@@ -8845,6 +8850,21 @@ vuex@^3.4.0:
   version "3.6.0"
   resolved "https://registry.npm.taobao.org/vuex/download/vuex-3.6.0.tgz?cache=0&sync_timestamp=1606318199388&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fvuex%2Fdownload%2Fvuex-3.6.0.tgz#95efa56a58f7607c135b053350833a09e01aa813"
   integrity sha1-le+lalj3YHwTWwUzUIM6CeAaqBM=
+
+vuex@^3.6.2:
+  version "3.6.2"
+  resolved "https://registry.yarnpkg.com/vuex/-/vuex-3.6.2.tgz#236bc086a870c3ae79946f107f16de59d5895e71"
+  integrity sha512-ETW44IqCgBpVomy520DT5jf8n0zoCac+sxWnn+hMe/CzaSejb/eVw2YToiXYX+Ex/AuHHia28vWTq4goAexFbw==
+
+vzer-ui@^0.1.4:
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/vzer-ui/-/vzer-ui-0.1.4.tgz#357ac0ce91d5166ebda2992ac03da3416f00a144"
+  integrity sha512-dzyGvsFc2gwwzePLFgi6KCPQpqm6LCysSGFIE0OLbtRoL3fsazO2ooKR2hwCKu4DDdokWkVD+4BMIQYLXugShA==
+  dependencies:
+    html-webpack-plugin "^3.2.0"
+    postcss-loader "^3.0.0"
+    url-loader "^2.1.0"
+    vue "^2.5.11"
 
 watchpack-chokidar2@^2.0.1:
   version "2.0.1"
@@ -9186,3 +9206,14 @@ yorkie@^2.0.0:
     is-ci "^1.0.10"
     normalize-path "^1.0.0"
     strip-indent "^2.0.0"
+
+yuni-ui@0.0.8:
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/yuni-ui/-/yuni-ui-0.0.8.tgz#c9378cb283e84aad3a6082513214462f274694ff"
+  integrity sha512-6DFCFoxm1iu2yHI5BcXY4LmyS51x1YwnFkY+pBdLNr0idIpJtUFXn0dnh/xtDqsoOQ3212NCmAVFufHKSkF28Q==
+  dependencies:
+    html-webpack-plugin "^3.2.0"
+    postcss-loader "^3.0.0"
+    url-loader "^2.1.0"
+    vue "^2.5.11"
+    vuex "^3.6.2"

@@ -15,8 +15,9 @@
                 <YuniButton type='colorliner' direction='right' fontColor='#fff' :colors='["#bf8bf5","#ff6f00","#667eea"]'>按钮</YuniButton>
                 <YuniButton type='colorliner' direction='right' animate='shake' fontColor='#fff' :colors='["#bf8bf5","#667eea"]'>按钮</YuniButton>
             </YuniCard>
-            <code class='yuni-code'>
+            <div class='yuni-code' v-highlight>
                 <pre class='yuni-pre'>
+                    <code>
 普通按钮
 &nbsp;&lt;YuniButton&nbsp;type='color'&gt;按钮&lt;/YuniButton&gt;
 &nbsp;&lt;YuniButton&nbsp;type='color'&nbsp;color='#409EFF'&nbsp;fontColor='#fff'&nbsp;radius='4'&nbsp;borderColor='#409EFF'&gt;按钮&lt;/YuniButton&gt;
@@ -25,10 +26,11 @@
 &nbsp;&lt;YuniButton&nbsp;type='color'&nbsp;color='transparent'&nbsp;fontColor='#F56C6C'&nbsp;radius='4'&nbsp;borderColor='#F56C6C'&gt;按钮&lt;/YuniButton&gt;
 &nbsp;&lt;YuniButton&nbsp;type='color'&nbsp;color='transparent'&nbsp;fontColor='#409EFF'&nbsp;radius='30'&nbsp;borderColor='#409EFF'&gt;按钮&lt;/YuniButton&gt;
 过渡色按钮
-&lt;YuniButton&nbsp;type='colorliner'&nbsp;direction='right'&nbsp;:colors='["#bf8bf5","#ff6f00","#667eea"]'&gt;按钮&lt;/YuniButton&gt;
+&nbsp;&lt;YuniButton&nbsp;type='colorliner'&nbsp;direction='right'&nbsp;:colors='["#bf8bf5","#ff6f00","#667eea"]'&gt;按钮&lt;/YuniButton&gt;
 &nbsp;&lt;YuniButton&nbsp;type='colorliner'&nbsp;direction='right'&nbsp;:colors='["#bf8bf5","#667eea"]'&gt;按钮&lt;/YuniButton&gt;
+                </code>
                 </pre>
-            </code>
+            </div>
            <table class='yuni-table'>
                <thead>
                    <th>参数</th>

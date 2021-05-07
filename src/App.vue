@@ -54,6 +54,11 @@ export default {
           name:"滚动",
           route:'/scroll'
         },
+        {
+          icon:require('@/assets/img1.png'),
+          name:"形状",
+          route:'/shape'
+        },
       ]
     }
   }
